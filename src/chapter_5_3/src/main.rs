@@ -50,5 +50,5 @@ fn main() {
     println!("Может ли rectangle1 вместить в себя rectangle3: {}", rectangle1.can_hold(&rectangle3));
 
     let square = Rectangle::square(32);
-    println!("{square:#?}");
+    println!("Квадрат: {square:#?}");
 }
